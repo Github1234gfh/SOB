@@ -1,0 +1,42 @@
+.bodyind {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.teg__a {
+    text-decoration: none;
+    color: black;
+}
+
+.body2 {
+    max-width: 1920px;
+    padding: 10px 150px;
+    margin: 0 auto;
+}
+
+.title__close {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pane {
+    position: relative;
+    background: #edf5e1;
+    padding: 10px 20px 10px;
+    border-top: solid 2px #c4df9b;
+}
+
+.remove-button {
+    position: absolute;
+    top: 0px ;
+    right: 0px;
+    background: none;
+    outline: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
